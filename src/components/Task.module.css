@@ -1,0 +1,39 @@
+.taskList {
+    display: grid;
+    justify-content: center;
+}
+
+.listItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    max-width: 40rem;
+    height: 3.5rem;
+    background: var(--gray-500);
+    margin: 0.3rem 0;
+    color: var(--gray-100);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.listItems svg {
+    margin: 0 0.8rem;
+    color: var(--yellow-400);
+}
+
+.listItems svg:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+}
+
+.listItems button {
+    background: none;
+    border: none;
+}
+
+.contentDone {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}

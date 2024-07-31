@@ -1,0 +1,86 @@
+.textInput {
+    background: var(--gray-500);
+    height: 3.5rem;
+    border-radius: 8px;
+    line-height: 1.4;
+    width: 60vw;
+    max-width: 40rem;
+    border: 1px solid var(--gray-700);
+    color: var(--gray-200);
+    padding-left: 0.8rem;
+}
+
+::placeholder {
+    color: var(--gray-300);
+}
+
+.create {
+    display: flex;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--yellow-400);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    margin-left: 0.3rem;
+}
+
+.create:hover {
+    background: var(--yellow-500);
+    transition: background-color 0.1s;
+}
+
+.create svg {
+    margin-left: 0.25rem;
+}
+
+.headerInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+
+.taskDiv span {
+    background: var(--gray-400);
+    padding: 0.3rem 0.5rem;
+    border-radius: 200px;
+    margin-left: 0.2rem;
+}
+
+.taskText {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    color: var(--purple-400);
+}
+
+.backTextDiv {
+    padding-top: 7rem;
+}
+
+.backTextDiv h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.backTextDiv svg {
+    display: flex;
+    margin: 0 auto;
+}
+
+.backText {
+    color: var(--gray-300);
+    font-size: 0.95rem;
+    font-weight: 100;
+}
+
+.hr {
+    margin-bottom: 1.5rem;
+}
